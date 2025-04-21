@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Cormorant:ital,wght@0,300..700;1,300..700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.titleContainer h2 {
+    text-align: center;
+    font-family: 'Cinzel';
+    font-size: larger;
+}
+
+.autor {
+    font-size: smaller;
+    color: #E0B7A0;
+}
+
+.iconContainer svg {
+    height: 40px;
+}
+
+.bg-1 {
+    background-color: #2C2C34;
+}
+
+.bg-2 {
+    background-color: #3B313A;
+}
+
+.text-principal {
+    font-family: 'Cinzel';
+    color: #BFA181;
+}
+
+.text-secundario {
+    color: #BFA181;
+}
