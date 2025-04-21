@@ -1,0 +1,66 @@
+body {
+    font-family: 'Merriweather', serif;
+    background-color: #2C2C34;
+    color: #F0ECE7;
+  }
+
+  header {
+    font-family: 'Cinzel', serif;
+    background-color: #3B313A;
+    text-align: center;
+    padding: 2rem 1rem;
+    border-bottom: 2px solid #8B3A3A;
+  }
+
+  header h1 {
+    color: #E0B7A0;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  header p {
+    color: #CBBBA0;
+    font-size: 1rem;
+  }
+
+  .card {
+    background-color: #3B313A;
+    border: 1px solid #5A4E4E;
+    color: #F0ECE7;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 15px rgba(191, 161, 129, 0.4);
+  }
+
+  .card-title {
+    font-family: 'Cinzel', serif;
+    color: #E0B7A0;
+  }
+
+  .categoria {
+    font-style: italic;
+    font-size: 0.9rem;
+    color: #BFA181;
+  }
+
+  .btn-vermas {
+    background-color: #A65C52;
+    border: none;
+  }
+
+  .btn-vermas:hover {
+    background-color: #8B3A3A;
+  }
+
+  .modal-content {
+    background-color: #2C2C34;
+    color: #F0ECE7;
+    border: 1px solid #5A4E4E;
+  }
+
+  .modal-header {
+    border-bottom: 1px solid #8B3A3A;
+  }
