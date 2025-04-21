@@ -1,6 +1,9 @@
 body {
     font-family: 'Merriweather', serif;
+    background-color: #2C2C34;
+    color: #F0ECE7;
   }
+
   .sectionOne {
     position: relative;
     height: 300px;

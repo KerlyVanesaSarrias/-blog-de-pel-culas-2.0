@@ -1,4 +1,24 @@
-.custom-navbar {
-    background-color:#3B313A; ﾠ
-}
+body {
+    font-family: 'Merriweather', serif;
+    background-color: #2C2C34;
+    color: #F0ECE7;
+  }
 
+  header {
+    font-family: 'Cinzel', serif;
+    background-color: #3B313A;
+    text-align: center;
+    padding: 2rem 1rem;
+    border-bottom: 2px solid #8B3A3A;
+  }
+
+  header h1 {
+    color: #E0B7A0;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  header p {
+    color: #CBBBA0;
+    font-size: 1rem;
+  }

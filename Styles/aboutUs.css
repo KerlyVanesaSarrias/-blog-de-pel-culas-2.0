@@ -10,12 +10,6 @@
     padding: 20px;
 }
 
-body {
-    background-color: #2C2C34;
-    font-family: 'Merriweather';
-    margin: 0;
-    color: #f0f0f0;
-}
 
 section{
     padding: 80px ;
@@ -28,7 +22,7 @@ section{
     gap: 20px;
 }
 
-img {
+.img {
     width: 150px;
     height: 200px;
     border-radius: 50px;
