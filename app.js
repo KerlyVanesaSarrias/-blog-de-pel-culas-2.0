@@ -1,4 +1,4 @@
-const basePath = location.pathname.includes('/Pages/') ? '../components/' : 'components/';
+const basePath = location.pathname.includes('Pages/') ? '../components/' : 'components/';
 
 fetch(`${basePath}header.html`)
   .then(res => res.text())
