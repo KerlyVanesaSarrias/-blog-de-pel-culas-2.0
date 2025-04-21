@@ -1,9 +1,13 @@
-const basePath = location.pathname.includes('Pages/') ? '../components/' : 'components/';
-
-fetch(`${basePath}header.html`)
+fetch('/components/header.html')
   .then(res => res.text())
-  .then(data => document.getElementById('header').innerHTML = data);
+  .then(data => {
+    const header = document.getElementById('header');
+    if (header) header.innerHTML = data;
+  });
 
-fetch(`${basePath}footer.html`)
+fetch('/components/footer.html')
   .then(res => res.text())
-  .then(data => document.getElementById('footer').innerHTML = data);
+  .then(data => {
+    const footer = document.getElementById('footer');
+    if (footer) footer.innerHTML = data;
+  });
